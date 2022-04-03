@@ -1,0 +1,1 @@
+This project is capping off the Flexbox section of the course. I'm resuming this after a few months, so it'll probably be a slow process.
