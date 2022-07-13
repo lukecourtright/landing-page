@@ -1,11 +1,14 @@
-.header {
+.top-nav-container {
     background-color: #1F2937;
     color: white
 }
 
-.hero {
-    background-color: #1F2937;
-    color: white
+ul {
+    list-style-type: none
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
 }
 
 
