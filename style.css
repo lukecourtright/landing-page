@@ -1,15 +1,38 @@
-.top-nav-container {
-    background-color: #1F2937;
-    color: white
-}
-
-/* For whatever reason, you can't get the items on the right to appear side by side. You should when you aren't cranky. */
-ul {
-    list-style-type: none
-    display: flex;
+* {
     margin: 0;
     padding: 0;
-    gap: 8px;
 }
+
+.top-section {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-link {
+    color:#f9faf8;
+    font-size:18px;
+    margin: 10px;
+ }
+
+ .nav-bar {
+    display: flex;
+ }
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo,.header-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
